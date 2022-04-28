@@ -1,4 +1,4 @@
-# ICS2O-PWA-Template-HTML
+# ICS2O-Unit5-03-HTML
 
 Template to make an MDL, PWA website, on GitHub pages.
 
