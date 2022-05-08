@@ -1,9 +1,9 @@
 /* Created by: Emmanuel.fofeyin
  * Created on: Apr 2022
- * This file contains the JS functions for index.html.
-*/
+ * This file contains the JS functions for index.html
+ */
 
-'use strict'
+"use strict"
 
 /**
  * Check servie worker.
@@ -26,13 +26,13 @@ function myButtonClicked() {
   if (seventeenAbove == true) {
     document.getElementById("answers").innerHTML = "You are eligible to watch R rated movies alone."
   } else if (thirteenToSixteen == true) {
-      document.getElementById("answers").innerHTML =
+  document.getElementById("answers").innerHTML =
         "You are eligible to watch PG 13 rated movies alone."
   } else if (fiveToTwelve == true) {
       document.getElementById("answers").innerHTML =
-        "You are eligible to watch G and PG rated movies alone."
+     "You are eligible to watch G and PG rated movies alone."
   } else {
       document.getElementById("answers").innerHTML =
-        "You are too young to watch any rated movies alone."
+     "You are too young to watch any rated movies alone."
   }
 }
