@@ -22,10 +22,10 @@ function myButtonClicked() {
   const seventeenAbove = document.getElementById("seventeenAbove").checked
   const thirteenToSixteen = document.getElementById("thirteenToSixteen").checked
   const fiveToTwelve = document.getElementById("fiveToTwelve").checked
-  
+
   //process
   if (seventeenAbove == true) {
-    document.getElementById("answers").innerHTML = 
+    document.getElementById("answers").innerHTML =
       "You are eligible to watch R rated movies alone."
   } else if (thirteenToSixteen == true) {
     document.getElementById("answers").innerHTML =
@@ -34,7 +34,7 @@ function myButtonClicked() {
     document.getElementById("answers").innerHTML =
       "You are eligible to watch G and PG rated movies alone."
   } else {
-  document.getElementById("answers").innerHTML =
-    "You are too young to watch any rated movies alone."
+    document.getElementById("answers").innerHTML =
+      "You are too young to watch any rated movies alone."
   }
 }
