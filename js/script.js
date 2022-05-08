@@ -22,6 +22,7 @@ function myButtonClicked() {
   const seventeenAbove = document.getElementById("seventeenAbove").checked
   const thirteenToSixteen = document.getElementById("thirteenToSixteen").checked
   const fiveToTwelve = document.getElementById("fiveToTwelve").checked
+  
   //process
   if (seventeenAbove == true) {
     document.getElementById("answers").innerHTML = 
