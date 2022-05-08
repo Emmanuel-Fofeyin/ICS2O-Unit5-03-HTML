@@ -24,15 +24,16 @@ function myButtonClicked() {
   const fiveToTwelve = document.getElementById("fiveToTwelve").checked
   //process
   if (seventeenAbove == true) {
-    document.getElementById("answers").innerHTML = "You are eligible to watch R rated movies alone."
+    document.getElementById("answers").innerHTML = 
+      "You are eligible to watch R rated movies alone."
   } else if (thirteenToSixteen == true) {
-  document.getElementById("answers").innerHTML =
-        "You are eligible to watch PG 13 rated movies alone."
+    document.getElementById("answers").innerHTML =
+      "You are eligible to watch PG 13 rated movies alone."
   } else if (fiveToTwelve == true) {
-      document.getElementById("answers").innerHTML =
-     "You are eligible to watch G and PG rated movies alone."
+    document.getElementById("answers").innerHTML =
+      "You are eligible to watch G and PG rated movies alone."
   } else {
-      document.getElementById("answers").innerHTML =
-     "You are too young to watch any rated movies alone."
+  document.getElementById("answers").innerHTML =
+    "You are too young to watch any rated movies alone."
   }
 }
